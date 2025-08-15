@@ -1,0 +1,15 @@
+{
+	"script": "HelloWorld.js",
+	"trigger": {
+		"endpoint": [
+			{
+				"method": "get",
+				"path": "/"
+			},
+			{
+				"method": "head",
+				"path": "/"
+			}
+		]
+	}
+}
