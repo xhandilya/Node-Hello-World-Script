@@ -1,6 +1,5 @@
 const response = {
-	content: "Hello, World!",
-	content_type: "text/plain"
+	content: "Hello, World!"
 };
 
 console.log(Buffer.from(JSON.stringify(response)).toString("base64"));
